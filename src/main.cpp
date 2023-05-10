@@ -3,7 +3,7 @@
 #include <ota.h>
 
 // This string should correspond to github tag used for Releasing (via. Github Actions)
-#define VERSION "0.0.4"
+#define VERSION "0.0.5"
 
 // Replace your_username/your_repo with your values (ex. axcap/Esp-GitHub-OTA)
 // This is a link to repo where your firmware updates will be pulled from
@@ -14,7 +14,7 @@
  #define RELEASE_URL "https://api.github.com/repos/braincurd/githubtest/releases/latest"
 
 
-#define DELAY_MS 5000
+#define DELAY_MS 500
 
 #define SSID "aLANdin"
 #define PASSWORD "50737simplenetz"
@@ -29,12 +29,12 @@ void setup()
 
   setup_wifi();
   init_ota(VERSION);delay(1000);
-    handle_ota(RELEASE_URL);
+    
 }
 
 void loop()
 {
-
+handle_ota(RELEASE_URL);
 
   // Your code goes here
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)

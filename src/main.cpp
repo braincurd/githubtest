@@ -13,7 +13,7 @@
 // to spare yourself from getting timeout from GitHub API
 #define RELEASE_URL "https://github.com/braincurd/githubtest.git"
 
-#define DELAY_MS 1000
+#define DELAY_MS 20
 
 #define SSID "aLANdin"
 #define PASSWORD "50737simplenetz"

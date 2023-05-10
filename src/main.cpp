@@ -14,7 +14,7 @@
  #define RELEASE_URL "https://api.github.com/repos/braincurd/githubtest/releases/latest"
 
 
-#define DELAY_MS 500
+#define DELAY_MS 1000
 
 #define SSID "aLANdin"
 #define PASSWORD "50737simplenetz"

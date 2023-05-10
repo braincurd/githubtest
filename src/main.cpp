@@ -11,14 +11,14 @@
 
 // Use this version of the URL together with init_ota(VERSION, true) under debugging
 // to spare yourself from getting timeout from GitHub API
-#define RELEASE_URL "https://github.com/your_username/your_repo/releases/latest"
+#define RELEASE_URL "https://github.com/braincurd/githubtest.git"
 
 #define DELAY_MS 1000
 
 #define SSID "aLANdin"
 #define PASSWORD "50737simplenetz"
 #define HOSTNAME "ESP32 OTA"
-#define LED_BUILTIN 13
+#define LED_BUILTIN 2
 
 void setup_wifi();
 void setup()

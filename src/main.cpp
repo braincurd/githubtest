@@ -10,7 +10,7 @@
 #include <ota.h>
 
 // This string should correspond to github tag used for Releasing (via. Github Actions)
-#define VERSION "0.0.8"
+#define VERSION "0.1.0"
 
 // Use this version of the URL together with init_ota(VERSION, true) under debugging
 // to spare yourself from getting timeout from GitHub API
